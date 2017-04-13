@@ -1,5 +1,6 @@
+file 'C:\test\geheim.txt' do
+	
+	content "Hallo"
 
-for file 'C:\test\geheim.txt' do
-	content :"Hallo"
 end
 
