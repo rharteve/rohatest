@@ -1,3 +1,1028 @@
 {
-  "name": "RoHa-PC2.home"
+  "name": "RoHa-PC2.home",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 2,
+        "vendor_id": "GenuineIntel",
+        "family": "205",
+        "model": "10759",
+        "stepping": "7",
+        "physical_id": "CPU0",
+        "model_name": "Intel64 Family 6 Model 42 Stepping 7",
+        "mhz": "2401",
+        "cache_size": "256 KB"
+      },
+      "total": 4,
+      "cores": 2,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 319137116,
+        "kb_available": 238653796,
+        "kb_used": 80483320,
+        "percent_used": 25,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      },
+      "F:": {
+        "kb_size": 0,
+        "kb_available": 0,
+        "kb_used": 0,
+        "percent_used": 0,
+        "mount": "F:",
+        "volume_name": null
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume1",
+        "build_number": "14393",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows 10 Pro",
+        "code_set": "1252",
+        "country_code": "31",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": null,
+        "cs_name": "ROHA-PC2",
+        "current_time_zone": 120,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 2,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "free_physical_memory": "4742620",
+        "free_space_in_paging_files": "877088",
+        "free_virtual_memory": "5859204",
+        "install_date": "20161228165311.000000+060",
+        "large_system_cache": null,
+        "last_boot_up_time": "20170413113843.497153+120",
+        "local_date_time": "20170413181929.900000+120",
+        "locale": "0413",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "nl-NL"
+        ],
+        "name": "Microsoft Windows 10 Pro|C:\\Windows|\\Device\\Harddisk0\\Partition2",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 111,
+        "number_of_users": 2,
+        "operating_system_sku": 48,
+        "organization": "",
+        "os_architecture": "64 bits",
+        "os_language": 1043,
+        "os_product_suite": 256,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 1,
+        "registered_user": "Windows-gebruiker",
+        "serial_number": "00330-80000-00000-AA353",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "1310720",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume2",
+        "system_directory": "C:\\Windows\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "9577364",
+        "total_visible_memory_size": "8266644",
+        "version": "10.0.14393",
+        "windows_directory": "C:\\Windows"
+      },
+      "name": "Microsoft Windows 10 Pro",
+      "release": "10.0.14393",
+      "version": "10.0.14393  Build 14393",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 3,
+        "automatic_managed_pagefile": true,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "boot_status": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bootup_state": "Normal boot",
+        "caption": "ROHA-PC2",
+        "chassis_bootup_state": 3,
+        "chassis_sku_number": null,
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": 120,
+        "daylight_in_effect": true,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "RoHa-PC2",
+        "domain": "WORKGROUP",
+        "domain_role": 0,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 3,
+        "hypervisor_present": true,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 3,
+        "last_load_info": null,
+        "manufacturer": "Dell Inc.",
+        "model": "Latitude E6420",
+        "name": "ROHA-PC2",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 4,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "Dell System",
+          "1[0493]",
+          "3[1.0]",
+          "12[www.dell.com]"
+        ],
+        "part_of_domain": false,
+        "pause_after_reset": "-1",
+        "pc_system_type": 2,
+        "pc_system_type_ex": 2,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 3,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "Windows-gebruiker",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_family": null,
+        "system_sku_number": null,
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "8465043456",
+        "user_name": "ROHA-PC2\\Gebruiker",
+        "wake_up_type": 6,
+        "workgroup": "WORKGROUP"
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "1310720kB",
+        "free": "877088kB"
+      },
+      "total": "8266644kB",
+      "free": "4742632kB"
+    },
+    "network": {
+      "interfaces": {
+        "0x4": {
+          "configuration": {
+            "ip_address": [
+              "192.168.56.1",
+              "fe80::6cf7:6bc0:b736:35b9"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000002] VirtualBox Host-Only Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "dhcp_enabled": false,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": null,
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+              "home"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "RoHa-PC2",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 2,
+            "interface_index": 4,
+            "ip_connection_metric": 25,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "0A:00:27:00:00:04",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VBoxNetAdp",
+            "setting_id": "{10654626-7BB1-4C70-BFDD-2413AC6FEFC1}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000002] VirtualBox Host-Only Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "device_id": "2",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{10654626-7BB1-4C70-BFDD-2413AC6FEFC1}",
+            "index": 2,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 4,
+            "last_error_code": null,
+            "mac_address": "0A:00:27:00:00:04",
+            "manufacturer": "Oracle Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "VirtualBox Host-Only Ethernet Adapter",
+            "net_connection_id": "VirtualBox Host-Only Network",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\NET\\0000",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "VirtualBox Host-Only Ethernet Adapter",
+            "service_name": "VBoxNetAdp",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "ROHA-PC2",
+            "time_of_last_reset": "20170413113843.497153+120"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.56.1": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.56.255",
+              "family": "inet"
+            },
+            "fe80::6cf7:6bc0:b736:35b9": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "0A:00:27:00:00:04": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.56.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.2": "01:00:5e:00:00:02",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "224.0.250.65": "01:00:5e:00:fa:41",
+            "224.0.250.66": "01:00:5e:00:fa:42",
+            "224.0.250.69": "01:00:5e:00:fa:45",
+            "224.0.252.100": "01:00:5e:00:fc:64",
+            "239.192.152.143": "01:00:5e:40:98:8f",
+            "239.255.255.250": "01:00:5e:7f:ff:fa"
+          },
+          "encapsulation": "Ethernet"
+        },
+        "0x6": {
+          "configuration": {
+            "ip_address": [
+              "10.0.75.1",
+              "fe80::ac6b:8f64:cd7a:a371"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000014] Hyper-V Virtual Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Hyper-V Virtual Ethernet Adapter",
+            "dhcp_enabled": false,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": null,
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+              "home"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "RoHa-PC2",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 14,
+            "interface_index": 6,
+            "ip_connection_metric": 15,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "00:15:5D:38:01:00",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VMSMP",
+            "setting_id": "{30629208-763C-4F15-9FCA-F89253D0E50B}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000014] Hyper-V Virtual Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Hyper-V Virtual Ethernet Adapter",
+            "device_id": "14",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{30629208-763C-4F15-9FCA-F89253D0E50B}",
+            "index": 14,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 6,
+            "last_error_code": null,
+            "mac_address": "00:15:5D:38:01:00",
+            "manufacturer": "Microsoft",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Hyper-V Virtual Ethernet Adapter",
+            "net_connection_id": "vEthernet (DockerNAT)",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\VMS_MP\\0000",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Hyper-V Virtual Ethernet Adapter",
+            "service_name": "VMSMP",
+            "speed": "10000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "ROHA-PC2",
+            "time_of_last_reset": "20170413113843.497153+120"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "10.0.75.1": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "10.0.75.255",
+              "family": "inet"
+            },
+            "fe80::ac6b:8f64:cd7a:a371": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "00:15:5D:38:01:00": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "10.0.75.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.2": "01:00:5e:00:00:02",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "224.0.250.65": "01:00:5e:00:fa:41",
+            "224.0.250.66": "01:00:5e:00:fa:42",
+            "224.0.250.69": "01:00:5e:00:fa:45",
+            "224.0.252.100": "01:00:5e:00:fc:64",
+            "239.192.152.143": "01:00:5e:40:98:8f",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        },
+        "0xd": {
+          "configuration": {
+            "ip_address": [
+              "192.168.2.38",
+              "fe80::2df8:518e:17c3:c8fa",
+              "fd05:ca64:7be8:1:bd25:bc7f:62ee:5ef9",
+              "2a02:a447:f7d1:1:bd25:bc7f:62ee:5ef9",
+              "fd05:ca64:7be8:1:2df8:518e:17c3:c8fa",
+              "2a02:a447:f7d1:1:2df8:518e:17c3:c8fa"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000019] Intel(R) Centrino(R) Advanced-N 6205 Driver",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "192.168.2.254",
+              "fe80::76b5:7eff:fe26:4dc8"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Intel(R) Centrino(R) Advanced-N 6205",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20170414160947.000000+120",
+            "dhcp_lease_obtained": "20170413160947.000000+120",
+            "dhcp_server": "192.168.2.254",
+            "dns_domain": "home",
+            "dns_domain_suffix_search_order": [
+              "home"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "RoHa-PC2",
+            "dns_server_search_order": [
+              "192.168.2.254"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0,
+              256
+            ],
+            "igmp_level": null,
+            "index": 19,
+            "interface_index": 13,
+            "ip_connection_metric": 55,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64",
+              "128",
+              "128",
+              "64",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "8C:70:5A:CF:13:20",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "NETwNe64",
+            "setting_id": "{922633A4-A0F5-405F-AB75-C54F14BD5997}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000019] Intel(R) Centrino(R) Advanced-N 6205 Driver",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Intel(R) Centrino(R) Advanced-N 6205 Driver",
+            "device_id": "19",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{922633A4-A0F5-405F-AB75-C54F14BD5997}",
+            "index": 19,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 13,
+            "last_error_code": null,
+            "mac_address": "8C:70:5A:CF:13:20",
+            "manufacturer": "Intel Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Intel(R) Centrino(R) Advanced-N 6205",
+            "net_connection_id": "Wi-Fi 2",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "PCI\\VEN_8086&DEV_0082&SUBSYS_13218086&REV_34\\4&2B43C7B7&0&00E1",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Intel(R) Centrino(R) Advanced-N 6205 Driver",
+            "service_name": "NETwNe64",
+            "speed": "54000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "ROHA-PC2",
+            "time_of_last_reset": "20170413113843.497153+120"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.2.38": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.2.255",
+              "family": "inet"
+            },
+            "fe80::2df8:518e:17c3:c8fa": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "fd05:ca64:7be8:1:bd25:bc7f:62ee:5ef9": {
+              "prefixlen": "128",
+              "family": "inet6"
+            },
+            "2a02:a447:f7d1:1:bd25:bc7f:62ee:5ef9": {
+              "prefixlen": "128",
+              "family": "inet6"
+            },
+            "fd05:ca64:7be8:1:2df8:518e:17c3:c8fa": {
+              "prefixlen": "64",
+              "family": "inet6"
+            },
+            "2a02:a447:f7d1:1:2df8:518e:17c3:c8fa": {
+              "prefixlen": "64",
+              "family": "inet6"
+            },
+            "8C:70:5A:CF:13:20": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.2.1": "00:17:88:16:9c:c3",
+            "192.168.2.2": "00:04:00:7e:ae:fe",
+            "192.168.2.3": "94:10:3e:35:02:51",
+            "192.168.2.4": "00:04:20:f4:ad:67",
+            "192.168.2.5": "14:91:82:04:86:79",
+            "192.168.2.13": "00:02:9b:b4:0d:a9",
+            "192.168.2.15": "c0:41:f6:5e:51:94",
+            "192.168.2.19": "00:02:9b:b4:11:c4",
+            "192.168.2.29": "14:91:82:04:81:a5",
+            "192.168.2.254": "74:b5:7e:26:4d:c8",
+            "192.168.2.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.2": "01:00:5e:00:00:02",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "224.0.250.65": "01:00:5e:00:fa:41",
+            "224.0.250.66": "01:00:5e:00:fa:42",
+            "224.0.250.69": "01:00:5e:00:fa:45",
+            "224.0.252.100": "01:00:5e:00:fc:64",
+            "239.192.152.143": "01:00:5e:40:98:8f",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "192.168.2.254",
+      "default_interface": "0xd"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "192.168.2.38",
+    "macaddress": "8C:70:5A:CF:13:20",
+    "ip6address": "fe80::2df8:518e:17c3:c8fa",
+    "os": "windows",
+    "os_version": "10.0.14393",
+    "platform": "windows",
+    "platform_version": "10.0.14393",
+    "platform_family": "windows",
+    "uptime_seconds": 24048,
+    "uptime": "6 hours 40 minutes 48 seconds",
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "languages": {
+      "perl": {
+        "version": "5.8.8",
+        "archname": "msys-64int"
+      },
+      "powershell": {
+        "version": "5.1.14393.953",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "10.0.14393.953",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0",
+          "5.0",
+          "5.1.14393.953"
+        ],
+        "remoting_protocol_version": "2.3"
+      },
+      "ruby": {
+        "platform": "i386-mingw32",
+        "version": "2.3.1",
+        "release_date": "2016-04-26",
+        "target": "i386-w64-mingw32",
+        "target_cpu": "i386",
+        "target_vendor": "w64",
+        "target_os": "mingw32",
+        "host": "i686-w64-mingw32",
+        "host_cpu": "i686",
+        "host_os": "mingw32",
+        "host_vendor": "w64",
+        "bin_dir": "C:/opscode/chefdk/embedded/bin",
+        "ruby_bin": "C:/opscode/chefdk/embedded/bin/ruby",
+        "gems_dir": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0",
+        "gem_bin": "C:/opscode/chefdk/embedded/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "12.19.36",
+        "chef_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.19.36-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "8.23.0",
+        "ohai_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/ohai-8.23.0/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "cloud_v2": null,
+    "command": {
+
+    },
+    "hostname": "RoHa-PC2",
+    "machinename": "ROHA-PC2",
+    "fqdn": "RoHa-PC2.home",
+    "domain": "home",
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1492100374.855654,
+    "packages": {
+      "HP LaserJet Professional CP1020 Series": {
+
+      },
+      "Vim 8.0 (self-installing)": {
+
+      },
+      "Oracle VM VirtualBox 5.1.18": {
+        "version": "5.1.18",
+        "publisher": "Oracle Corporation",
+        "installdate": "20170401"
+      },
+      "MongoDB 3.4.3 2008R2Plus SSL (64 bit)": {
+        "version": "3.4.3",
+        "publisher": "MongoDB",
+        "installdate": "20170401"
+      },
+      "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170401"
+      },
+      "Dell Touchpad": {
+        "version": "8.1206.101.112",
+        "publisher": "ALPS ELECTRIC CO., LTD."
+      },
+      "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170401"
+      },
+      "NVIDIA-configuratiescherm 342.01": {
+        "version": "342.01",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20161228"
+      },
+      "NVIDIA Grafisch stuurprogramma 342.01": {
+        "version": "342.01",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20161228"
+      },
+      "NVIDIA nView 141.36": {
+        "version": "141.36",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20161228"
+      },
+      "NVIDIA HD Audio-stuurprogramma 1.3.30.1": {
+        "version": "1.3.30.1",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20161228"
+      },
+      "NVIDIA Install Application": {
+        "version": "2.1002.172.1382",
+        "publisher": "NVIDIA Corporation",
+        "installdate": "20161228"
+      },
+      "Dropbox": {
+        "version": "23.4.18",
+        "publisher": "Dropbox, Inc."
+      },
+      "KPN Veilig": {
+        "version": "2.76.212.0",
+        "publisher": "F-Secure Corporation",
+        "installdate": "20170401"
+      },
+      "Google Chrome": {
+        "version": "57.0.2987.133",
+        "publisher": "Google Inc.",
+        "installdate": "20170401"
+      },
+      "HD Tune 2.55": {
+        "publisher": "EFD Software",
+        "installdate": "20170410"
+      },
+      "Redundancy Module Config Tool": {
+        "version": "6.2.10.0",
+        "publisher": "",
+        "installdate": "20170403"
+      },
+      "F-Secure CCF Reputation": {
+        "version": "2.1.1342.0",
+        "publisher": "F-Secure",
+        "installdate": "20170401"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501": {
+        "version": "12.0.30501.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "RSLogix Micro English 8.30.00": {
+        "version": "8.30.00",
+        "publisher": "Rockwell Automation Inc",
+        "installdate": "20170403"
+      },
+      "HPLJUT": {
+        "version": "1.00.0012",
+        "publisher": "HP",
+        "installdate": "20170410"
+      },
+      "F-Secure SafeSearch 1.11.101.0 (release)": {
+        "version": "1.11.101.0",
+        "publisher": "F-Secure Corporation",
+        "installdate": "20170401"
+      },
+      "RSLinx Classic 2.57.00 CPR 9 SR 3": {
+        "version": "2.57.00.14 CPR 9 SR 3",
+        "publisher": "Rockwell Automation, Inc.",
+        "installdate": "20170403"
+      },
+      "Rockwell Automation Driver Package x64": {
+        "version": "1.0.3",
+        "publisher": "Rockwell Automation",
+        "installdate": "20170403"
+      },
+      "RSLogix Emulate 500 6.00.00 (CPR 9)": {
+        "version": "6.00.00.07",
+        "publisher": "Rockwell Automation, Inc.",
+        "installdate": "20170403"
+      },
+      "F-Secure CCF Scanning 1.73.275.1078 (release)": {
+        "version": "1.73.275.1078",
+        "publisher": "F-Secure Corporation",
+        "installdate": "20170401"
+      },
+      "hppLaserJetService": {
+        "version": "007.015.00635",
+        "publisher": "Hewlett-Packard",
+        "installdate": "20170410"
+      },
+      "FactoryTalk Services Platform 2.30 (CPR 9 SR 3)": {
+        "version": "2.30.00.0023",
+        "publisher": "Rockwell Automation, Inc.",
+        "installdate": "20170403"
+      },
+      "Online Safety 2.176.4626.2945": {
+        "version": "2.176.4626.2945",
+        "publisher": "F-Secure Corporation",
+        "installdate": "20170401"
+      },
+      "Google Update Helper": {
+        "version": "1.3.33.3",
+        "publisher": "Google Inc.",
+        "installdate": "20170413"
+      },
+      "Computer Security 14.176.101.0 (release)": {
+        "version": "14.176.101.0",
+        "publisher": "F-Secure Corporation",
+        "installdate": "20170401"
+      },
+      "FactoryTalk Diagnostics 2.30 (CPR 9 SR 3)": {
+        "version": "2.30.00.0023",
+        "publisher": "Rockwell Automation, Inc.",
+        "installdate": "20170403"
+      },
+      "OpenOffice 4.1.3": {
+        "version": "4.13.9783",
+        "publisher": "Apache Software Foundation",
+        "installdate": "20170401"
+      },
+      "F-Secure Network CCF 1.04.214": {
+        "version": "1.04.214",
+        "publisher": "F-Secure Corporation",
+        "installdate": "20170401"
+      },
+      "Adobe Refresh Manager": {
+        "version": "1.8.0",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20170412"
+      },
+      "Adobe Acrobat Reader DC - Nederlands": {
+        "version": "17.009.20044",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20170412"
+      },
+      "Rockwell Windows Firewall Configuration Utility 1.00.05": {
+        "version": "1.00.05.0006",
+        "publisher": "Rockwell Automation, Inc.",
+        "installdate": "20170403"
+      },
+      "Chef Development Kit v1.3.40": {
+        "version": "1.3.40.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20170412"
+      },
+      "Intel(R) Processor Graphics": {
+        "version": "9.17.10.4229",
+        "publisher": "Intel Corporation"
+      },
+      "hppcp1025LaserJetService": {
+        "version": "1.00.0000",
+        "publisher": "Hewlett-Packard",
+        "installdate": "20170410"
+      }
+    },
+    "root_group": "Administrators",
+    "time": {
+      "timezone": "West-Europa (zomertijd)"
+    },
+    "recipes": [
+
+    ],
+    "expanded_run_list": [
+
+    ],
+    "roles": [
+
+    ]
+  }
 }
